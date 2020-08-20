@@ -1,0 +1,26 @@
+{% load static %}
+{% block content %}
+<div class="container" style="background-color: grey;">
+    <h2 style="font-family: fantasy; color: white;">Choose your Hood;</h2>
+    <ol style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <li class="nav-item active">
+            <a class="1st court" href="/"></a>1st court <span class="sr-only">(RnB)</span></a>
+        </li><br>
+        <div class="card" data-toggle="modal" data-target="#RnB">
+            <img src="../static/images/1st court.jpg" height="50%" alt="court1" class="card-img">
+        </div>
+        <li class="nav-item active">
+            <a class="2nd court" href="/"></a>2nd court <span class="sr-only">(Rock)</span></a>
+        </li><br>
+        <div class="card" data-toggle="modal" data-target="#Rock">
+            <img src="../static/images/2nd court.jpeg" height="40%" alt="court2" class="card-img">
+        </div>
+        <li class="nav-item active">
+            <a class="3rd court" href="/"></a>3rd court <span class="sr-only">(Pop)</span></a>
+        </li><br>
+        <div class="card" data-toggle="modal" data-target="#Pop">
+            <img src="../static/images/3rd court.jpg" height="40%" alt="court3" class="card-img">
+        </div>
+    </ol>
+</div>
+{% endblock %}

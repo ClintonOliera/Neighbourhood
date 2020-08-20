@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'hoodies.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'award2',
+        'NAME': 'hood',
         'USER': 'moringa',
         'PASSWORD':'Access'
     }
