@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hood',
     'crispy_forms',
+    'bootstrap4',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -80,9 +81,9 @@ WSGI_APPLICATION = 'hoodies.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'award2',
-        'USER': 'moringa',
-        'PASSWORD':'Access'
+        'NAME': 'hood',
+        'USER': 'ian',
+        'PASSWORD':'ianshem'
     }
 }
 
